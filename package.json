@@ -1,0 +1,15 @@
+{
+  "name": "uugwebpagetestnodejs",
+  "version": "0.1.0",
+  "description": "Pagina web test de Unity User Group IPN desarrollada en Node JS, con fines de practica y educativos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Gonzalez Gamboa",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
