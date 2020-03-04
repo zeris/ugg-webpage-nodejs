@@ -1,13 +1,13 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 12000;
 
+app.set('port', 12002);
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
-app.get('/', (req, res, next)=>
+app.get('/', (req, res)=>
 {
     res.render('index');
 });
 
-app.listen(port, ()=> console.log(`UUG Web Test NodeJS listening on Port ${port}`));
+app.listen(app.get('port'), ()=> console.log("UUG Web Test NodeJS listening on Port: ",app.get('port')));

@@ -4,7 +4,8 @@
   "description": "Pagina web test de Unity User Group IPN desarrollada en Node JS, con fines de practica y educativos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Brandon Gonzalez Gamboa",
   "license": "ISC",
