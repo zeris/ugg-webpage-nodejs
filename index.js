@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.set('port', 12002);
+app.set('port', 10000);
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
